@@ -1,46 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A saúde mental é um conceito que vem sendo discutido por vários órgãos da saúde pública, privada, instituições  e outras. Tornando-se recorrente presentemente dos profissionais da área que buscam a melhor forma de conceder, de modo que todos compreendam e obtenham viver esse conceito como um “estado”, considerando que uma boa parte da população consente as informações sobre o tema de maneira inverídica, provocando desinformação e desconfortos.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A  sociedade brasileira ainda encontra dificuldade em notar ser uma doença e ainda estender o conceito de saúde e doença. As desinformações sustentam os  conceitos antagônicos; ter saúde não significa necessariamente não ter nenhuma doença. E acaba gerando preconceitos desnecessários para o convívio da sociedade de modo geral 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Surge, então, a necessidade de desmistificar a má relação entre as doenças mentais que determinam exclusivamente ter ou não saúde mental. Partindo desse pressuposto, a (OMS) Organização Mundial da Saúde  apresenta a ideia de saúde mental ligada a um estado de bem-estar. Nele, o indivíduo pode se manter ativo, produtivo e realizar as suas habilidades, contribuindo para sociedade. O conceito não está ligado somente a presença de doenças mentais, mas aborda diversos problemas que também podem impactar a realização das atividades cotidianas do indivíduo. (SAÚDE…, 2022). 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+É notório os avanços alcançados em relação à visão de saúde mental no Brasil ao longo dos anos. Mesmo com tais avanços, o tema ainda continua cheio de estigmas e preconceitos. Necessitando de mais estudo que gera informação para desconstruir a forma do pensamento da população em geral. (Freitas, 2018; Romanowski,2021; MUNIZ,2014).
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+As tecnologias de informação e comunicação são fatores essenciais que vem contribuindo para o desenvolvimento de várias áreas, tornando cada vez mais presente na vida da população brasileira. (Sousa,2018; Queau, 1998; Barbosa et al, 2009). Apesar dessa facilidade, ainda existe deficiência para a disponibilização de tecnologia para determinados grupos existentes nesse país: baixa escolaridade, baixa renda, áreas periféricas das metrópoles e zonas rurais. Necessitando de avanços das políticas públicas a longo prazo no Brasil. (NETO, Miranda; 2010).
 
-## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+# Problema
+Segundo dados da OMS, 86% dos brasileiros possuem algum transtorno mental. Esse número é bastante significativo e mostra a importância de desenvolver ações para melhorar a qualidade de vida das pessoas. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Só durante a pandemia, tivemos uma piora da saúde mental de 53% da nossa população, de acordo com o levantamento do fórum econômico mundial. Passamos recentemente por um período bastante conturbado, onde diversas pessoas perderam parentes, foram internadas, ficaram presas em casa, muitas vezes até sem tomar sol, fatores que podem justificar esse índice. 
 
-## Justificativa
+[Ações realizadas pela Rede Ebserh/MEC buscam conscientizar sobre a importância da saúde mental](https://www.gov.br/ebserh/pt-br/comunicacao/noticias/acoes-realizadas-pela-rede-ebserh-mec-buscam-conscientizar-sobre-a-importancia-da-saude-mental)
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+[Saúde mental de 53% dos brasileiros piorou entre 2020 e 2021, aponta estudo](https://pebmed.com.br/saude-mental-de-53-dos-brasileiros-piorou-entre-2020-e-2021-aponta-estudo/)
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+# Objetivos
 
-## Público-Alvo
+Desenvolver uma solução web para contribuir e levar informação de qualidade sobre o tema saúde mental, bem como facilitar o acesso de pessoas de baixa renda ou com quaisquer outras dificuldades pessoais à profissionais da saúde
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+# Justificativa
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Apesar de ser um tema em alta hoje em dia, existem muitas dificuldades na disseminação da informação sobre doenças, tratamentos e problemas relacionados à saúde mental. Henderson (2014) destaca a existência de estigmas relacionados às pessoas que possuem alguma característica neurodivergente. O artigo também conclui que intervenções educativas possuem um efeito positivo na redução desse problema, algo que reforça a relevância do nosso projeto. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+# Público-Alvo
+
+A ideia é que todos os públicos tenham acesso às informações fornecidas. Mas podemos considerar que o intuito maior será alcançar pessoas que possuem algum tipo de transtorno mental ou até mesmo aquela pessoa que suspeita ter algum tipo de desconforto. 
+
+Além disso, serão contemplados em descobrir novos conceitos, recursos, modos e referências em  questões que abrangem a temática “Saúde Mental”. Por hora, aprender mais sobre o tema e desvendar outras temáticas que estão correlacionadas.
+
+Não o bastante, apresentar informações de qualidade, seguras, verdadeiras, dinâmicas, que despertem o interesse no público visitante a ponto de levá-lo a uma terapia, onde, a plataforma irá dispor de psicólogos com preços sociais para aqueles que demonstram a necessidade.
