@@ -2,7 +2,7 @@
 
 A saúde mental é um conceito que vem sendo discutido por vários órgãos da saúde pública, privada, instituições  e outras. Tornando-se recorrente presentemente dos profissionais da área que buscam a melhor forma de conceder, de modo que todos compreendam e obtenham viver esse conceito como um “estado”, considerando que uma boa parte da população consente as informações sobre o tema de maneira inverídica, provocando desinformação e desconfortos.
 
-A  sociedade brasileira ainda encontra dificuldade em notar ser uma doença e ainda estender o conceito de saúde e doença. As desinformações sustentam os  conceitos antagônicos; ter saúde não significa necessariamente não ter nenhuma doença. E acaba gerando preconceitos desnecessários para o convívio da sociedade de modo geral 
+A  sociedade brasileira ainda encontra dificuldade em notar ser uma doença e ainda estender o conceito de saúde e doença. As desinformações sustentam os  conceitos antagônicos; ter saúde não significa necessariamente não ter nenhuma doença. Isso acaba gerando preconceitos desnecessários para o convívio da sociedade de modo geral.
 
 Surge, então, a necessidade de desmistificar a má relação entre as doenças mentais que determinam exclusivamente ter ou não saúde mental. Partindo desse pressuposto, a (OMS) Organização Mundial da Saúde  apresenta a ideia de saúde mental ligada a um estado de bem-estar. Nele, o indivíduo pode se manter ativo, produtivo e realizar as suas habilidades, contribuindo para sociedade. O conceito não está ligado somente a presença de doenças mentais, mas aborda diversos problemas que também podem impactar a realização das atividades cotidianas do indivíduo. (SAÚDE…, 2022). 
 
