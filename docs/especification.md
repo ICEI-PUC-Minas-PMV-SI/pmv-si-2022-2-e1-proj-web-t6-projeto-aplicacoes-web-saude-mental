@@ -50,8 +50,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir que o usuário possa cadastrar se desejar   | ALTA |
 |RF-003| Permitir que o usuário encontre profissionais aptos   | ALTA |
 |RF-004| Permitir que o profissional se cadastre   | ALTA |
-|RF-004| Permitir que o usuario possa deixar notas sobre algum assunto    | BAIXA |
-|RF-005| Permitir que o profissional possa ter acesso às informações do paciente    | BAIXA |
+|RF-005| Permitir que o usuario possa deixar notas sobre algum assunto    | BAIXA |
+|RF-006| Permitir que o profissional possa ter acesso às informações do paciente    | BAIXA |
 
 ### Requisitos não Funcionais
 
