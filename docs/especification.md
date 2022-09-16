@@ -44,33 +44,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir que o usuário consulte informação sem cadastro | ALTISSIMA |
+|RF-002| Permitir que o usuário possa cadastrar se desejar   | ALTA |
+|RF-003| Permitir que o usuário encontre profissionais aptos   | ALTA |
+|RF-004| Permitir que o profissional se cadastre   | ALTA |
+|RF-004| Permitir que o usuario possa deixar notas sobre algum assunto    | BAIXA |
+|RF-005| Permitir que o profissional possa ter acesso às informações do paciente    | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| As informações dos pacientes devem ser protegidas utilizando a lei LGPD | ALTISSIMA | 
+|RNF-002| As informações devem ser claras e objetivas |  ALTA | 
+|RNF-003| O sistema deve ser o mais leve possivel para rodar em dispositivos  de baixo custo | ALTA | 
+|RNF-004| O sistema deve ser responsivo para rodar no Navegador e em Dispositovos Móveis | MÉDIA | 
+|RNF-005| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
