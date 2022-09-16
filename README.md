@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Giovanni Marino
 * Henrique Avelar Amaral
 * Lucas Campos Grosso
-* Alysson da Silva Pereira
+* Alyson da Silva Pereira
 * João Paulo Freitas Silva 
 
 ## Orientador
