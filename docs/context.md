@@ -39,3 +39,27 @@ Não o bastante, apresentar informações de qualidade, seguras, verdadeiras, di
 # Público-Alvo
 
 A ideia é que todos os públicos tenham acesso às informações fornecidas. Mas podemos considerar que o intuito maior será alcançar pessoas que possuem algum tipo de transtorno mental ou até mesmo aquela pessoa que suspeita ter algum tipo de desconforto. Pessoas que vivenciam muitos obstáculos, dificuldades e necessidades em relação aos cuidados com sua saude mental, além de sofrerem preconceito por parte da sociedade. 
+
+
+# Referências
+
+Ações realizadas pela Rede Ebserh/MEC buscam conscientizar sobre a importância da saúde mental. Ministério da Educação, 32 de Janeiro de 2022. Disponível em:
+https://www.gov.br/ebserh/pt-br/comunicacao/noticias/acoes-realizadas-pela-rede-ebserh-mec-buscam-conscientizar-sobre-a-importancia-da-saude-mental. Acesso em: 14 de setembro de 2022.
+
+BARBOSA, Ricardo Rodrigues; SEPULVEDA, Maria Inês Moreira; COSTA, Mateus Uerlei Pereira da. Gestão da informação e do conhecimento na era do compartilhamento e ca colaboração. Inf. & Soc.:Est., João Pessoa, v.19, n.2, p. 13-24, maio/ago. 2009
+
+Covid: saúde mental piorou para 53% dos brasileiros sob pandemia, aponta pesquisa. BBC, 14 de Abril de 2021. Disponível em: https://www.bbc.com/portuguese/geral-56726583. Acesso em: 14 de setembro de 2022.
+
+FREITAS, Bismarck Liandro de. A evolução da saúde mental no brasil: reinserção social. Revista Científica Semana Acadêmica, 2018.
+
+HENDERSON, Claire. Mental health-related stigma in health care and mental health-care settings. Elsevier, 2014.
+
+MUNIZ, Marcela Pimenta et al. Desvendando o projeto terapêutico de enfermagem em saúde mental: um relato de experiência. Revista de pesquisa: cuidado é fundamental online, 2014, n. 1, v. 6, p 132-140. Disponível em: http://www.seer.unirio.br/index.php/cuidadofundamental/article/view/1747/pdf_1078.
+
+NETO, Benedito Medeiros; MIRANDA, Antonio. Uso da tecnologia e acesso à informação pelos usuários do programa Gesac e de ações de inclusão digital do governo brasileiro. Inclusão Social, [S. l.], v. 3, n. 2, 2010.
+
+QUEAU, Philippe. A revolução da informação: em busca do bem comum. Ci. Inf., Brasília, v. 27, n. 2, p. 198-205, maio/ago. 1998
+
+Romanowski, Raquel de Mattos. História da Saúde Mental no Brasil: Evolução no Tratamento e Mudanças de Paradigma, O Entendimento da Saúde Mental ao Longo do Tempo. Universidade Federal de Minas Gerais, 2021.
+
+ SOUSA, Maxwell Milhome de. O PODER DA INFORMAÇÃO NA INTERNET: uma análise de uso do Marketing Digital nos blogs da Ciência da Informação. São Cristóvão, SE. 2018
