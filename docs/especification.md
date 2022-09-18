@@ -6,37 +6,23 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Jessica Lopes, 26 anos, solteira, trabalha como vendedora em uma loja de roupas durante o dia no centro de Belo Horizonte, cursa o 5º período de pedagogia em um bairro próximo ao centro de BH. Atualmente, mora na cidade de Sabará, região metropolitana de BH, com sua mãe e três irmãos. Por ser filha mais velha, sente a obrigação de auxiliar nas tarefas e despesas da casa, além de querer ser exemplo de força e superação para seus irmãos. Seu maior desejo é se formar em pedagogia e proporcionar uma vida melhor para sua família, sente medo em não bater suas metas e perder seu atual emprego, por isso, se esforça e se cobra demais. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Por levar uma vida corrida: dividida entre cobrança do serviço, da faculdade e por se responsabilizar com as tarefas do seu lar, começou a apresentar insônia, dores de cabeça ao fim do dia, cansaço físico levando a fadiga e problemas gastrointestinais. Sempre atribuiu tais queixas a sua rotina, até que um dia, durante seu expediente apresentou um “apagão”, foi encaminhada ao médico, que realizou sua propedêutica, informou o diagnóstico de Síndrome de Burnout e a orientou a mudar seu estilo de vida. Jessica está realizando as recomendações dada pelo médico e busca na internet assuntos sobre seu diagnóstico, entretanto ela acha vários sites, muitos com conteúdo rasos e incompletos, fontes não confiáveis, fazendo com que sinta insegura em procurar mais ajuda, receio em iniciar terapia e ser considerada louca pela sua chefia de trabalho. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Por se tratar de um tema delicado e das dificuldades encontradas pela Jessica, ela sente falta de uma plataforma que vá ajudar na sua busca de autoconhecimento. Uma plataforma que seja de fácil acesso, conteúdos pertinentes ao tema e com profissionais qualificados, pois a mesma possui uma jornada corrida, um orçamento curto para tais despesas e que seja um ambiente acolhedor, para amenizar suas angústias e trazer conforto.
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+- Eu como usuario, gostaria de entrar na plataforma e poder consumir conteudos sobre Saúde Mental sem fazer cadastro.
+- Me sentiria seguro em ler informações sobre qual profissional procurar e em que momento
+- Eu como usuario, gostaria de poder encontrar profissionais com especialização no assunto que estou pesquisando.
+- Ficaria satisfeito ao acessar a plataforma e ter uma diversidade de psicologos e psiquiatras
+- Eu como profissional, gostaria de me cadastrar na plataforma para poder divulgar o meu trabalho com preço social.
+- Gostaria em quanto profissional, ter um ficha dos dados do paciente, bem como informações básicas e importantes como: Nome, idadei, cidade, profissão, o que sente ? etc.
+- Me sentiria melhor se tivesse um espaço onde eu pudesse desabafar o que estava sentindo, talvez, um espaço - Digite aqui o que sente ? Contar o que sente, ajudará a se sentir mais leve.
+- Gostaria de ler conteudos que desmistificassem a visao simplista que a sociedade tem sobre os transtornos mentais, reduzindo alguns estigmas
 
 ## Requisitos
 
