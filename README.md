@@ -15,7 +15,7 @@ Surge então a oportunidade de criar um site lúdico, instigante e que eduque so
 * Giovanni Marino
 * Henrique Avelar Amaral
 * Lucas Campos Grosso
-* Alysson da Silva Pereira
+* Alyson da Silva Pereira
 * João Paulo Freitas Silva 
 
 ## Orientador
