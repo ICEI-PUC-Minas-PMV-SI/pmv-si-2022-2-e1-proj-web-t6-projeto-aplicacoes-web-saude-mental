@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Saude mental é um problema recorrente em nossa sociedade porém ainda marcado por estigmas que dificultam o diagnóstico e o tratamento de diversas manifestações neurológicas. Durante a Pandemia, vimos um aumento nos casos de ansiedade e questões relacionadas, portanto faz-se necessária a disseminação de conteudos de qualidade e ao mesmo tempo de fácil absorção. 
+Saúde mental é um problema recorrente em nossa sociedade porém ainda marcado por estigmas que dificultam o diagnóstico e o tratamento de diversas manifestações neurológicas. Durante a Pandemia, vimos um aumento nos casos de ansiedade e questões relacionadas, portanto faz-se necessária a disseminação de conteudos de qualidade e ao mesmo tempo de fácil absorção. 
 Surge então a oportunidade de criar um site lúdico, instigante e que eduque sobre o tema de forma simples. O mesmo pode direcionar as pessoas para os profissionais e serviços adequados, entre outras funcionalidades a serem exploradas.
 
 ## Integrantes
