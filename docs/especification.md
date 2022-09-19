@@ -1,9 +1,4 @@
 # Especificações do Projeto
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 Jessica Lopes, 26 anos, solteira, trabalha como vendedora em uma loja de roupas durante o dia no centro de Belo Horizonte, cursa o 5º período de pedagogia em um bairro próximo ao centro de BH. Atualmente, mora na cidade de Sabará, região metropolitana de BH, com sua mãe e três irmãos. Por ser filha mais velha, sente a obrigação de auxiliar nas tarefas e despesas da casa, além de querer ser exemplo de força e superação para seus irmãos. Seu maior desejo é se formar em pedagogia e proporcionar uma vida melhor para sua família, sente medo em não bater suas metas e perder seu atual emprego, por isso, se esforça e se cobra demais. 
