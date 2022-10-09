@@ -19,7 +19,7 @@ Por fim, a página terá um RODAPÉ onde foi utilizado a tag "footer" junto com 
 inferior do site. 
 
 Essa área apresenta:
-  - Menu de navegação 
+  - Mapa do site 
   - Logotipo 
 
 ![image](https://user-images.githubusercontent.com/113210006/194771740-0adc4b78-fe52-4f89-a27f-65a4e42b1553.png)
