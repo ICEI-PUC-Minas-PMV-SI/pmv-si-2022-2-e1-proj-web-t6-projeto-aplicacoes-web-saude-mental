@@ -32,15 +32,15 @@ Ela mostrará em seções cada especialidade relacionada ao tema e terá um link
 ![3  Profissionais](https://user-images.githubusercontent.com/110241105/194770910-a8458411-ff43-4cf2-be41-255f7c930b3d.png)
 
 ### Serviços
-
+Nesta tela o usuário contará com apoio para que possa se informar dos serviços disponibilizados pela plataforma. A tela contará com título, e os serviçoes disponibilizados estão em sessões ao longo da pagina.
 ![4  Serviços](https://user-images.githubusercontent.com/110241105/194770919-03c74835-bebb-405f-982a-d2a6b7e57e41.png)
 
 ### Sobre nós
-
+Nesta página o usuário irá encontrar um texto explicativo sobre a plataforma que estará utilizando. 
 ![5  Sobre nós](https://user-images.githubusercontent.com/110241105/194770926-39ccbd49-3eb8-4d25-b957-703f55459f26.png)
 
 ### Relato
-
+Nessa página o usuário poderá compartilhar depoimentos sobre suas vivências relacionada ao tema do site. A página vai conter um formulário para o usuário inserir sua história. 
 ![6  Relato](https://user-images.githubusercontent.com/110241105/194770933-e89d84f5-c9a3-47c2-9185-099ee92f3d24.png)
 
 
