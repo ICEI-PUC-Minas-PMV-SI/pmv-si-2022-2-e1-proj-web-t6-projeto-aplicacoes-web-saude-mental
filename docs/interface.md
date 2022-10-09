@@ -23,11 +23,11 @@ A primeira tela onde o usuário irá navegar é a de início. Ela é composta de
 ![1  Home](https://user-images.githubusercontent.com/110241105/194770748-515a2ebc-e307-4dc1-8765-cb2355057699.png)
 
 ### Transtornos
-
+Esta página contém os transtornos mentais cadastradas no sistema. Ela apresenta o título da página, com uma breve descrição do propósito da mesma. Cada transtono será apresentado em uma seção vertical. Cada seção terá um texto informativo com um link para o usúario clicar e saber mais sobre. 
 ![2  Transtornos](https://user-images.githubusercontent.com/110241105/194770791-63c8009f-5291-498c-98e9-900a6ba98ab2.png)
 
 ### Profissionais
-
+O usuário terá acesso a equipe multidisciplinar, no qual poderá pesquisar por especialidades
 ![3  Profissionais](https://user-images.githubusercontent.com/110241105/194770910-a8458411-ff43-4cf2-be41-255f7c930b3d.png)
 
 ### Serviços
