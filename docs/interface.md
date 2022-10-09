@@ -6,9 +6,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
+O fluxo do site consiste numa barra de navegação, por onde o usuário pode trafegar pelas 4 àreas principais do site: a página de início, a página de transtornos, a página de profissionais e a de serviços.
+
+Abaixo, é possível ver o fluxo criado com o software Figma, onde as setas azuis representam as ações/o fluxo do usuário.
+
 <img width="729" alt="Screen Shot 2022-10-09 at 13 24 01" src="https://user-images.githubusercontent.com/110241105/194768141-e0861e5d-39cb-4cbd-8630-c959324e6758.png">
 
-O fluxo do site consiste numa barra de navegação, por onde o usuário pode trafegar pelas 4 àreas principais do site: a página de início, a página de transtornos, a página de profissionais e a de serviços.
+
 
 
 ## Wireframes
