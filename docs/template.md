@@ -1,6 +1,6 @@
 Template do site - Saúde Mental  
 
-Inicialmente o site dispõe de um CABEÇALHO, onde encontra-se algumas entre elas:
+Inicialmente o site dispõe de um CABEÇALHO, onde encontra-se alguns elementos entre elas:
 
   - Logotipo, no canto superior à esquerda
   - Menu de navegação, no canto superior à direita
