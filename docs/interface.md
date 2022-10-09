@@ -27,7 +27,8 @@ Esta página contém os transtornos mentais cadastradas no sistema. Ela apresent
 ![2  Transtornos](https://user-images.githubusercontent.com/110241105/194770791-63c8009f-5291-498c-98e9-900a6ba98ab2.png)
 
 ### Profissionais
-O usuário terá acesso a equipe multidisciplinar, no qual poderá pesquisar por especialidades
+Esta tela irá apresentar a equipe multidisciplinar cadastrada. 
+Ela mostrará em seções cada especialidade relacionada ao tema e terá um link para que o usuário possa achar o profissional desejado.
 ![3  Profissionais](https://user-images.githubusercontent.com/110241105/194770910-a8458411-ff43-4cf2-be41-255f7c930b3d.png)
 
 ### Serviços
