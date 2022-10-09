@@ -21,6 +21,7 @@ inferior do site.
 Essa área apresenta:
   - Mapa do site 
   - Logotipo 
+  - Sobre nós
 
 ![image](https://user-images.githubusercontent.com/113210006/194771740-0adc4b78-fe52-4f89-a27f-65a4e42b1553.png)
 
