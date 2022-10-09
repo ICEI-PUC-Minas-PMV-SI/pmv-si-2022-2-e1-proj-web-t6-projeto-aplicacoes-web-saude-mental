@@ -25,5 +25,5 @@ Essa área apresenta:
 
 ![image](https://user-images.githubusercontent.com/113210006/194771740-0adc4b78-fe52-4f89-a27f-65a4e42b1553.png)
 
-O usuário poderá retornar às paginas de navegação ou obter informações externas na página "Sobre nós" clicando em: instagram, facebook e linkedin. Com
+O usuário poderá retornar às páginas de navegação ou obter informações externas na página "Sobre nós" clicando em: instagram, facebook e linkedin. Com
 utilização do atributo "href", onde ele será redirecionado para outra página. 
