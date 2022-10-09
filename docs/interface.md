@@ -32,7 +32,7 @@ Ela mostrará em seções cada especialidade relacionada ao tema e terá um link
 ![3  Profissionais](https://user-images.githubusercontent.com/110241105/194770910-a8458411-ff43-4cf2-be41-255f7c930b3d.png)
 
 ### Serviços
-Nesta tela o usuário contará com apoio para que possa se informar dos serviços disponibilizados pela plataforma. A tela contará com título, e os serviçoes disponibilizados estão em sessões ao longo da pagina.
+Nesta tela o usuário contará com apoio para que possa se informar dos serviços disponibilizados pela plataforma. A tela contará com título, e os serviços disponibilizados estão em sessões ao longo da página.
 ![4  Serviços](https://user-images.githubusercontent.com/110241105/194770919-03c74835-bebb-405f-982a-d2a6b7e57e41.png)
 
 ### Sobre nós
