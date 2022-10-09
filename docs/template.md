@@ -1,4 +1,4 @@
-Template do site - Saúde Mental  
+# Template do site
 
 Inicialmente o site dispõe de um CABEÇALHO, onde encontra-se alguns elementos, entre eles:
 
