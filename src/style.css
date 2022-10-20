@@ -1,130 +1,121 @@
 #cabecalho {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    background: #DCE1EA;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #dce1ea;
 }
 
 #cabecalho-logo {
-    height: auto;
-    float: left;
-    max-width: 10%;
-    margin-top: 20px;
-    margin-left: 85px;
+  height: auto;
+  float: left;
+  max-width: 10%;
+  margin-top: 20px;
+  margin-left: 85px;
 }
 
 #cabecalho-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    float: right;
-    gap: 48px;
-    margin-top: 30px;
-    margin-right: 49px;
-    
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  float: right;
+  gap: 48px;
+  margin-top: 30px;
+  margin-right: 49px;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 body {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 #menu.div {
-    font-size:16px;
-    font-family: 'Times New Roman', serif;
+  font-size: 16px;
+  font-family: "Times New Roman", serif;
 }
-
 
 #banner {
-    width: 100%;
-    height: 768px;
+  width: 100%;
+  height: 768px;
 
-    background: white;
-}  
-#body1 {
-    width: 100%;
-    height: 512px;
-
-    background: #5A6983;;
+  background: white;
 }
-#body2 {
-    width: 100%;
-    height: 512px;
+#content1 {
+  width: 100%;
+  height: 512px;
 
-    background: white;
+  background: #5a6983;
 }
+#content2 {
+  width: 100%;
+  height: 512px;
 
-
-
+  background: white;
+}
 
 #rodape {
-    width: 100%;
-    height: 272px;
+  width: 100%;
+  height: 272px;
 
-    background: #3F495A;
+  background: #3f495a;
 }
 
 #rodape-logo {
-    height: auto;
-    float: left;
-    max-width: 25%;
-    margin-top: 15px;
+  height: auto;
+  float: left;
+  max-width: 25%;
+  margin-top: 15px;
 }
 
 #rodape-container {
-    display: inline-block;
-    width: 710px;
-    height: 176px;
+  display: inline-block;
+  width: 710px;
+  height: 176px;
 
-    margin-left: 320px;
-    margin-top: 48px;
+  margin-left: 320px;
+  margin-top: 48px;
 
-    /* background: green; */
+  /* background: green; */
 }
 
 #title {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-#mapa-rows, #sobre-rows {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    float: right;
-    gap: 12px;
-    margin-top: 15px;
-    margin-right: 60px;
-    color: white;
+#mapa-rows,
+#sobre-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: right;
+  gap: 12px;
+  margin-top: 15px;
+  margin-right: 60px;
+  color: white;
 
-    font-family: Arial, Helvetica, sans-serif;
-    
+  font-family: Arial, Helvetica, sans-serif;
 }
-#menu-sobre   {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    float: right;
-    gap: 12px;
-    margin-right: 49px;
-    color: white;
+#menu-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: right;
+  gap: 12px;
+  margin-right: 49px;
+  color: white;
 
-    font-family: Arial, Helvetica, sans-serif;
-    
+  font-family: Arial, Helvetica, sans-serif;
 }
-#menu-mapa   {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    float: right;
-    gap: 12px;
-    margin-right: 49px;
-    color: white;
+#menu-mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: right;
+  gap: 12px;
+  margin-right: 49px;
+  color: white;
 
-    font-family: Arial, Helvetica, sans-serif;
-    
+  font-family: Arial, Helvetica, sans-serif;
 }
