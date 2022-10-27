@@ -1,42 +1,98 @@
-* {
-  font-family: "Times New Roman", serif;
+/* ESTILOS GERAIS */
 
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
 
 body {
-  margin-top: 80px;
-  background: gray;
+  background: #fff;
 }
 
-#menu.div {
-  font-size: 16px;
+/* MENU */
+
+.cabecalho {
+  background-color: #177671;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
 }
 
+#cabecalho-menu {
+  display: flex;
+  gap: 16px;
+}
 
-#content-box {
+#cabecalho-menu li {
   display: inline-block;
+  padding: 8px;
 }
+
+#cabecalho-menu li:hover {
+  display: inline-block;
+  padding: 8px;
+  background-color: #0d4c49;
+  border-radius: 8px;
+}
+
+#menu-hamburguer {
+  display: none;
+  width: 28px;
+}
+
+@media all and (max-width: 480px) {
+  #menu-hamburguer {
+    display: block;
+  }
+  #cabecalho-menu {
+    display: none;
+    position: absolute;
+    background-color: #0d4c49;
+    top: 72px;
+    left: 0px;
+    width: 100%;
+  }
+  #cabecalho-menu li {
+    display: block;
+    padding: 12px;
+    text-align: center;
+  }
+
+  #cabecalho-menu li {
+    display: block;
+    padding: 12px;
+    text-align: center;
+  }
+}
+
+/* BANNER E CONTEÚDO */
 
 #banner {
   width: 100vw;
-  height: 512px; /* Mudar esse valor para alterar a altura do Banner*/
+  height: 512px;
 
   background: white;
 }
+
 #content1 {
   width: 100vw;
-  height: 512px; /* Mudar esse valor para alterar a altura de cada Content*/
+  height: 512px;
 
   background: #5a6983;
 }
+
 #content2 {
-  width: 100vw;  
-  height: 512px; /* Mudar esse valor para alterar a altura de cada Content*/
+  width: 100vw;
+  height: 512px;
 
   background: white;
 }
+
+/* RODAPÉ */
 
 #rodape {
   width: 100vw;
@@ -98,83 +154,4 @@ body {
   color: white;
 
   font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-@media (min-width: 850px) { /* Para PC */
-  #cabecalho {
-    position: fixed;
-    height: 10vh;
-    min-height: 100px;
-    width: 100vw;
-    left: 0px;
-    top: 0px;
-    background: #dce1ea;
-  }
-  
-  #cabecalho-logo {
-    height: auto;
-    float: left;
-    max-width: 250px;
-    margin-top: 20px;
-    margin-left: 5vw;
-  }
-  
-  #cabecalho-menu {
-    float: right;
-    list-style: none;
-  }
-
-  #cabecalho ol li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-
-  /* #cabecalho-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    float: right;
-    gap: 40px;
-    margin-top: 7vh;
-    margin-right: 49px;
-  
-    font-size: 20px;
-  
-    list-style: none;
-  } */
-}
-
-@media (max-width: 750px) { /* Para Mobile */
-  /* #cabecalho {
-    position: fixed;
-    height: 20vh;
-    width: 100vw;
-    left: 0px;
-    top: 0px;
-    background: #dce1ea;
-  }
-  
-  #cabecalho-logo {
-    height: auto;
-    float: left;
-    max-width: 20%;
-    margin-top: 5vh;
-    margin-left: 10vw;
-  }
-  
-  #cabecalho-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    float: right;
-    gap: 48px;
-    margin-top: 30px;
-    margin-right: 49px;
-  
-  
-    list-style: none;
-  } */
 }

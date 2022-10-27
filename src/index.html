@@ -15,39 +15,33 @@
   <body>
     <!-- HEADER -->
 
-    <nav id="cabecalho">
-      
-      <img id="cabecalho-logo" class="logo" src="logo.png" />
-      <ol id="cabecalho-menu" display="flex">
+    <nav class="cabecalho">
+      <img id="cabecalho-logo" class="logo" src="img/Logo.svg" />
+      <ol id="cabecalho-menu">
         <li><a>Início</a></li>
         <li><a>Transtornos</a></li>
         <li><a>Profissionais</a></li>
         <li><a>Serviços</a></li>
       </ol>
-
+      <img id="menu-hamburguer" src="img/Menu-Hamburguer.svg" />
     </nav>
 
-
     <div id="content-box">
-      
-
       <!-- BANNER -->
       <div id="banner"></div>
 
       <!-- CONTEÚDO -->
-  
+
       <div id="content1"></div>
-  
+
       <div id="content2"></div>
-
-
     </div>
 
     <!-- FOOTER -->
 
     <footer id="rodape">
       <div id="rodape-container">
-        <img id="rodape-logo" class="logo" src="logo.png" />
+        <img id="rodape-logo" class="logo" src="img/Logo.svg" />
         <div id="rodape-menu">
           <div id="menu-sobre">
             <div id="title">
@@ -77,4 +71,13 @@
       </div>
     </footer>
   </body>
+
+  <script>
+    const menuHamburguer = document.getElementById("menu-hamburguer");
+    const cabecalhoMenu = document.getElementById("cabecalho-menu");
+
+    menuHamburguer.addEventListener("click", () => {
+      cabecalhoMenu.classList.toggle("active");
+    });
+  </script>
 </html>
