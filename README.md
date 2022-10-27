@@ -14,7 +14,6 @@ Saúde mental é um problema recorrente em nossa sociedade porém ainda marcado 
 
 * Giovanni Marino
 * Henrique Avelar Amaral
-* Lucas Campos Grosso
 * Alyson da Silva Pereira
 * João Paulo Freitas Silva 
 
