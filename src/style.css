@@ -19,36 +19,40 @@ body {
   color: #fff;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 24px;
+  padding: 8px 120px;
 }
 
-#cabecalho-menu {
+.cabecalho-menu {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
-#cabecalho-menu li {
+.cabecalho-menu li {
   display: inline-block;
   padding: 8px;
 }
 
-#cabecalho-menu li:hover {
+.cabecalho-menu li:hover {
   display: inline-block;
   padding: 8px;
   background-color: #0d4c49;
   border-radius: 8px;
 }
 
-#menu-hamburguer {
+.menu-hamburguer {
   display: none;
   width: 28px;
 }
 
-@media all and (max-width: 480px) {
-  #menu-hamburguer {
+@media all and (max-width: 640px) {
+  .cabecalho {
+    padding: 8px 24px;
+  }
+
+  .menu-hamburguer {
     display: block;
   }
-  #cabecalho-menu {
+  .cabecalho-menu {
     display: none;
     position: absolute;
     background-color: #0d4c49;
@@ -56,27 +60,58 @@ body {
     left: 0px;
     width: 100%;
   }
-  #cabecalho-menu li {
+  .cabecalho-menu li {
     display: block;
     padding: 12px;
     text-align: center;
   }
 
-  #cabecalho-menu li {
+  .cabecalho-menu li:hover {
     display: block;
     padding: 12px;
     text-align: center;
   }
 }
 
-/* BANNER E CONTEÚDO */
+/* BANNER */
 
-#banner {
+.banner {
   width: 100vw;
-  height: 512px;
-
+  height: 608px;
   background: white;
+  background-image: url(img/Background.png);
+  background-size: cover;
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.banner-texto {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.big-button-a {
+  background-color: #835ed7;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 80px;
+}
+
+.banner-imagem {
+  width: 450px;
+}
+
+/* CONTEÚDO */
 
 #content1 {
   width: 100vw;
@@ -112,7 +147,6 @@ body {
   display: inline-block;
   width: 100vw;
   height: 176px;
-
   margin-top: 48px;
 }
 
