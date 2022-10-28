@@ -1,88 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="script.js"></script>
-
-    <title>SaúdavelMente</title>
-    <meta
-      name="author"
-      content="Giovanni Marino,Henrique Avelar Amaral,Alyson da Silva Pereira,João Paulo Freitas Silva"
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SaudavelMente</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- HEADER -->
+    <!-- NAVBAR -->
 
-    <nav class="cabecalho">
-      <img id="cabecalho-logo" class="logo" src="img/Logo.svg" />
-      <ol class="cabecalho-menu">
-        <li><a>Início</a></li>
-        <li><a>Transtornos</a></li>
-        <li><a>Profissionais</a></li>
-        <li><a>Serviços</a></li>
-      </ol>
-      <img class="menu-hamburguer" src="img/Menu-Hamburguer.svg" />
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid mx-4">
+        <a class="navbar-brand" href="#"><img src="img/Logo.svg" /></a>
+
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Transtornos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profissionais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Serviços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <div id="content-box">
-      <!-- BANNER -->
+    <!-- BANNER -->
 
-      <div class="banner">
-        <div class="banner-texto">
-          <h1>Lorem Ipsum Dolor</h1>
-          <div class="subtitulo">
-            Consectetur adipiscing elit. Morbi a augue ante. Phasellus tincidunt
-            justo est.
-          </div>
-          <button class="big-button-a">Conheça</button>
-        </div>
+    <!-- BODY -->
 
-        <img class="banner-imagem" src="img/Hero-Image.png" />
-      </div>
-
-      <!-- CONTEÚDO -->
-
-      <div id="content1"></div>
-
-      <div id="content2"></div>
-    </div>
-
-    <!-- FOOTER -->
-
-    <footer id="rodape">
-      <div id="rodape-container">
-        <img id="rodape-logo" class="logo" src="img/Logo.svg" />
-        <div id="rodape-menu">
-          <div id="menu-sobre">
-            <div id="title">
-              <strong>Sobre nós</strong>
-            </div>
-            <div id="sobre-rows">
-              <a>Facebook</a>
-              <a>Instagram</a>
-              <a>Linkedin</a>
-            </div>
-          </div>
-
-          <div id="menu-mapa">
-            <div id="title">
-              <strong>Mapa do Site</strong>
-            </div>
-
-            <div id="mapa-rows">
-              <a>Início</a>
-              <a>Sobre nós</a>
-              <a>Transtornos</a>
-              <a>Profissionais</a>
-              <a>Serviços</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!-- SCRIPT DO BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
