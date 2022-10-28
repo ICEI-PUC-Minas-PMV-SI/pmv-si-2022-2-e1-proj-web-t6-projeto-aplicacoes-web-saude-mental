@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+
     <title>SaúdavelMente</title>
     <meta
       name="author"
@@ -15,31 +17,45 @@
   <body>
     <!-- HEADER -->
 
-    <nav id="cabecalho">
-      <img id="cabecalho-logo" class="logo" src="logo.png" />
-      <div id="cabecalho-menu" display="flex">
-        <a>Início</a>
-        <a>Transtornos</a>
-        <a>Profissionais</a>
-        <a>Serviços</a>
-      </div>
+    <nav class="cabecalho">
+      <img id="cabecalho-logo" class="logo" src="img/Logo.svg" />
+      <ol class="cabecalho-menu">
+        <li><a>Início</a></li>
+        <li><a>Transtornos</a></li>
+        <li><a>Profissionais</a></li>
+        <li><a>Serviços</a></li>
+      </ol>
+      <img class="menu-hamburguer" src="img/Menu-Hamburguer.svg" />
     </nav>
 
-    <!-- BANNER -->
+    <div id="content-box">
+      <!-- BANNER -->
 
-    <div id="banner"></div>
+      <div class="banner">
+        <div class="banner-texto">
+          <h1>Lorem Ipsum Dolor</h1>
+          <div class="subtitulo">
+            Consectetur adipiscing elit. Morbi a augue ante. Phasellus tincidunt
+            justo est.
+          </div>
+          <button class="big-button-a">Conheça</button>
+        </div>
 
-    <!-- CONTEÚDO -->
+        <img class="banner-imagem" src="img/Hero-Image.png" />
+      </div>
 
-    <div id="content1"></div>
+      <!-- CONTEÚDO -->
 
-    <div id="content2"></div>
+      <div id="content1"></div>
+
+      <div id="content2"></div>
+    </div>
 
     <!-- FOOTER -->
 
     <footer id="rodape">
       <div id="rodape-container">
-        <img id="rodape-logo" class="logo" src="logo.png" />
+        <img id="rodape-logo" class="logo" src="img/Logo.svg" />
         <div id="rodape-menu">
           <div id="menu-sobre">
             <div id="title">
