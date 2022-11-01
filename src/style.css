@@ -1,191 +1,47 @@
-/* ESTILOS GERAIS */
+/* NAV */
 
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
+nav {
+  background-color: #441986;
 }
 
-body {
-  background: #fff;
+/* CONTEÚDO
+------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
-/* MENU */
-
-.cabecalho {
-  background-color: #177671;
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 120px;
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
-.cabecalho-menu {
-  display: flex;
-  gap: 24px;
+.featurette-divider {
+  margin: 5rem 0;
 }
 
-.cabecalho-menu li {
-  display: inline-block;
-  padding: 8px;
+.featurette-heading {
+  letter-spacing: -0.05rem;
 }
 
-.cabecalho-menu li:hover {
-  display: inline-block;
-  padding: 8px;
-  background-color: #0d4c49;
-  border-radius: 8px;
-}
+/* RESPONSIVIDADE
+-------------------------------------------------- */
 
-.menu-hamburguer {
-  display: none;
-  width: 28px;
-}
-
-@media all and (max-width: 640px) {
-  .cabecalho {
-    padding: 8px 24px;
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
 
-  .menu-hamburguer {
-    display: block;
-  }
-  .cabecalho-menu {
-    display: none;
-    position: absolute;
-    background-color: #0d4c49;
-    top: 72px;
-    left: 0px;
-    width: 100%;
-  }
-  .cabecalho-menu li {
-    display: block;
-    padding: 12px;
-    text-align: center;
-  }
-
-  .cabecalho-menu li:hover {
-    display: block;
-    padding: 12px;
-    text-align: center;
+  .featurette-heading {
+    font-size: 50px;
   }
 }
 
-/* BANNER */
-
-.banner {
-  width: 100vw;
-  height: 608px;
-  background: white;
-  background-image: url(img/Background.png);
-  background-size: cover;
-  padding: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.banner-texto {
-  display: flex;
-  gap: 16px;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-h1 {
-  font-size: 56px;
-}
-
-.big-button-a {
-  background-color: #835ed7;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  padding: 16px 40px;
-  border-radius: 80px;
-}
-
-.banner-imagem {
-  width: 450px;
-}
-
-/* CONTEÚDO */
-
-#content1 {
-  width: 100vw;
-  height: 512px;
-
-  background: #5a6983;
-}
-
-#content2 {
-  width: 100vw;
-  height: 512px;
-
-  background: white;
-}
-
-/* RODAPÉ */
-
-#rodape {
-  width: 100vw;
-  height: 272px;
-
-  background: #3f495a;
-}
-
-#rodape-logo {
-  height: auto;
-  float: left;
-  max-width: 25%;
-  margin-top: 15px;
-}
-
-#rodape-container {
-  display: inline-block;
-  width: 100vw;
-  height: 176px;
-  margin-top: 48px;
-}
-
-#title {
-  margin-top: 10px;
-}
-
-#mapa-rows,
-#sobre-rows {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  float: right;
-  gap: 12px;
-  margin-top: 15px;
-  margin-right: 60px;
-  color: white;
-
-  font-family: Arial, Helvetica, sans-serif;
-}
-#menu-sobre {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  float: right;
-  gap: 12px;
-  margin-right: 49px;
-  color: white;
-
-  font-family: Arial, Helvetica, sans-serif;
-}
-#menu-mapa {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  float: right;
-  gap: 12px;
-  margin-right: 49px;
-  color: white;
-
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
