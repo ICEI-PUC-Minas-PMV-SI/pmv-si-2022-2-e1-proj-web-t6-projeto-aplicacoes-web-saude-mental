@@ -1,7 +1,24 @@
-/* NAV */
+/* HOME
+---------------------------------------------------------- */
+
+/* NAV
+------------------------- */
 
 nav {
   background-color: #441986;
+}
+
+/* GERAL
+------------------------- */
+
+.btn-primary {
+  background-color: #6e3abc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #441986;
+  border: none;
 }
 
 /* CONTEÚDO
@@ -45,3 +62,6 @@ nav {
     margin-top: 7rem;
   }
 }
+
+/* TRANSTORNOS
+---------------------------------------------------------- */
