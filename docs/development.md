@@ -4,7 +4,7 @@ A descrição das funcionalidades desenvolvidas para atender os requisitos funci
 
 ## Requisitos funcionais
 
-### RF-001 - Permitir que o usuário consulte informação sem cadastro*
+### RF-001 - Permitir que o usuário consulte informação sem cadastro
 
 Para atender esse requisito, o usuário terá acesso ao site sem precisar se identificar. Essa medida serve para proteger os dados pessoais do usuário e deixa-lo mais confortável para acessar a página. 
 
