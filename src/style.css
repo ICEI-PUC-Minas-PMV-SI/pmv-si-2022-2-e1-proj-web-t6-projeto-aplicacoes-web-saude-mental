@@ -21,6 +21,12 @@ nav {
   border: none;
 }
 
+.homeicons {
+  width: 120px;
+  height: 120px;
+  color: rgb(59, 203, 181);
+}
+
 /* CONTEÚDO
 ------------------------- */
 
