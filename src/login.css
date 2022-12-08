@@ -1,0 +1,73 @@
+/* NAV ------------------------- */
+
+nav {
+    background-color: #441986;
+  }
+
+/* Footer ------------------------- */
+
+footer {
+    max-height: 15px;
+}
+
+
+/* PAGE ------------------------- */
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Parte dos Inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style do Butão de Login */
+.login-button {
+    background-color: #441986;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Adicona o "Hover" no botão de login */
+.login-button:hover {
+    opacity: 0.8;
+}
+
+
+/*          Essa parte é Style dos botãos comentados              */
+
+/* Style extra para o botão de cancelar */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Parte do "Esqueci Minha Senha" */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Responsividade do botão "Cancelar" e "Esqueci minha senha" */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+
+}
