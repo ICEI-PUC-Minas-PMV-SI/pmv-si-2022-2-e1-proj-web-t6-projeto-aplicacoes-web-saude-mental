@@ -51,16 +51,16 @@
 
     <!------------ LOGIN ------------->
 
-    <form action="action_page.php" method="post">
+    <form id="login-form">
     
       <div class="container py-5">
-        <label for="uname"><b>Usuário</b></label>
-        <input type="text" placeholder="Nome de Usuário" name="uname" required>
+        <label for="usrname"><b>Usuário</b></label>
+        <input type="text" placeholder="Nome de Usuário" id="usrname" required>
     
         <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Digite sua Senha" name="psw" required>
+        <input type="password" placeholder="Digite sua Senha" id="psw" required>
     
-        <button class="login-button" type="submit">Entrar</button>
+        <button class="login-button" type="reset" onclick="loginSubmit()">Entrar</button>
         <label>
           <input type="checkbox" checked="checked" name="remember"> Lembrar Credenciais
         </label>
@@ -146,5 +146,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <!-- SCRIPT DA PAG LOGIN -->
+    <script type="text/javascript"  src="login.js"> </script>
   </body>
 </html>
