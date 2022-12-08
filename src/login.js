@@ -1,34 +1,53 @@
+function registrosDefaults() {
+    sessionStorage.setItem("registrados", JSON.stringify({
+            "henrique": "pass",
+            "alyson": "pass123",
+            "giovanni": "pass456",
+            "joao": "pass789",
+        })
+    );
+}
 
 
+function getRegistrados() {
+    var registrados = sessionStorage.getItem('registrados')
+    
+    if (registrados == null) {
+        registrosDefaults()
+    }
 
-
-
-
-
-const registrados = {
-    "henrique": "pass",
-    "alyson": "pass123",
-    "giovanni": "pass456",
-    "joao": "pass789",
-};
+    return JSON.parse(sessionStorage.getItem('registrados'));
+}
 
 
 function loginSubmit() {
     const usrname = document.getElementById("usrname").value;
     const psw = document.getElementById("psw").value;
 
+    const registrados = getRegistrados();
+
     // Valida se o usuario e a senha estão corretos
     if (registrados[usrname] == psw) {
-        console.log('Login efetuado!');
         sessionStorage.setItem("usrname", usrname);
         window.location.href = 'index.html';
     } else {
-        console.log('Usuario ou Senha incorreto.');
+        alert("Usuario ou Senha incorreto.");
     }
-
-    console.log("oi");
-
 }
 
-// const loginForm = document.getElementById('login-form');
-// loginForm.addEventListener('submit', loginSubmit);
+
+function registrar() {
+    const usrname = document.getElementById("usrname").value;
+    const psw = document.getElementById("psw").value;
+
+    if ((usrname == "") || (psw == "")) {
+        alert("É necessario um usuario e senha para cadastro.");
+    } else {
+        var registrados = getRegistrados();
+
+        registrados[usrname] = psw;
+        window.location.href = 'login.html';
+        
+        sessionStorage.setItem("registrados", JSON.stringify(registrados));
+    }
+}
