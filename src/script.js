@@ -1,3 +1,26 @@
+
+window.onload = function () {
+
+    // Página de Cadastro e de Login não precisam dessa validação
+    if ((!window.location.href.endsWith("login.html")) && (!window.location.href.endsWith("cadastro.html"))) {
+        const loginBtn = document.getElementById("login-button");
+        const usrm = sessionStorage.getItem('usrname');
+
+        if (usrm == null) { // Quer dizer que não foi feito o Login
+            loginBtn.innerHTML = "Login";
+            loginBtn.href = "login.html";
+        } else {
+            loginBtn.innerHTML = "Log Out";
+            loginBtn.onclick = function() {
+                sessionStorage.removeItem("usrname");
+                window.location.reload();
+
+            }
+        }
+    }
+};
+
+
 function registrosDefaults() {
     sessionStorage.setItem("registrados", JSON.stringify({
             "henrique": "pass",
@@ -8,7 +31,6 @@ function registrosDefaults() {
     );
 }
 
-
 function getRegistrados() {
     var registrados = sessionStorage.getItem('registrados')
     
@@ -18,7 +40,6 @@ function getRegistrados() {
 
     return JSON.parse(sessionStorage.getItem('registrados'));
 }
-
 
 function loginSubmit() {
     const usrname = document.getElementById("usrname").value;
@@ -34,7 +55,6 @@ function loginSubmit() {
         alert("Usuario ou Senha incorreto.");
     }
 }
-
 
 function registrar() {
     const usrname = document.getElementById("usrname").value;
