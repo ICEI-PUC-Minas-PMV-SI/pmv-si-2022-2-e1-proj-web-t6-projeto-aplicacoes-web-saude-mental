@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-expand-lg opacity-75 navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/logo.svg" /></a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Início</a>
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="transtornos.html">Transtornos</a>
@@ -81,7 +81,7 @@
     <div class="container marketing">
 
       <!-- CONTEUDO 1 -->
-      <div class="row featurette">
+      <div class="row featurette d-flex justify-content-center">
         <div class="col-md-7">
           <form id="formulario">
             <fieldset>
@@ -120,8 +120,6 @@
           </form>
         </div>
       </div>
-    
-      <hr class="featurette-divider" style="margin:1em;" />
 
       <div id="container_depoimento" class="row"></div>
 
@@ -136,14 +134,7 @@
         class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
       >
         <div class="col mb-3">
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 link-dark text-decoration-none"
-          >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap" />
-            </svg>
-          </a>
+          <img src="img/logo 2.svg" />
           <p class="text-muted">&copy; 2022</p>
         </div>
 
@@ -153,7 +144,7 @@
           <h5>Mapa do Site</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="index.html" class="nav-link p-0 text-muted">Início</a>
+              <a href="#" class="nav-link p-0 text-muted">Início</a>
             </li>
             <li class="nav-item mb-2">
               <a href="sobre_nos.html" class="nav-link p-0 text-muted"
@@ -171,7 +162,14 @@
               >
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">Serviços</a>
+              <a href="servicos.html" class="nav-link p-0 text-muted"
+                >Serviços</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="depoimentos.html" class="nav-link p-0 text-muted"
+                >Depoimentos</a
+              >
             </li>
           </ul>
         </div>
@@ -199,6 +197,9 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
+    <!-- SCRIPT PRINCIPAL -->
+    <script type="text/javascript" src="script.js"></script>
 
     <!-- SCRIPT DE DEPOIMENTOS -->
     <script src="./depoimentos.js"></script>
