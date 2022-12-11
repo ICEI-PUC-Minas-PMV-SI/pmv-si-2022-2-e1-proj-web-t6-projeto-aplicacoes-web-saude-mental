@@ -14,6 +14,6 @@ Os testes nos diferentes navegadores apresentaram resultados positivos para os t
 
 As pessoas que realizaram os testes não apresentaram dificuldades para navegar no site, ou para encontrar as informações principais nele.
 
-Identificamos um erro na página de relatos, que não está mostrando o botão de login na navbar, mesmo com ele inserido no html e com os scripts referentes a login ativados. Em uma próxima iteração sugerimos a investigação mais detalhada do caso.
+Identificamos um erro na página de relatos nem na de login, que não estão mostrando o botão de login na navbar, mesmo com ele inserido no html e com os scripts referentes a login ativados. Em uma próxima iteração sugerimos a investigação mais detalhada do caso.
 
 Os scripts de login apresentaram resultado positivo em seu funcionamento, com o correto armazenamento dos dados e o feedback para o usuário de que ele está logado/deslogado.
