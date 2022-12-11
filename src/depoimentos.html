@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
+
   <body>
     <!------------ NAVBAR ------------->
 
@@ -33,15 +34,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html"
-                >Início</a
-              >
+              <a class="nav-link" href="index.html">Início</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="transtornos.html">Transtornos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Profissionais</a>
+              <a class="nav-link" href="profissionais.html">Profissionais</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="servicos.html">Serviços</a>
@@ -60,7 +59,7 @@
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-2">
         <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="img/Header-Profissionais.png"
+            src="img/Header-Depoimentos.png"
             class="d-block mx-lg-auto img-fluid"
             alt="Bootstrap Themes"
             width="400px"
@@ -68,7 +67,7 @@
           />
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Profissionais</h1>
+          <h1 class="display-5 fw-bold lh-1 mb-3">Conte-nos sua história</h1>
           <p class="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
             iure consequuntur maiores sint recusandae modi voluptatibus quidem
@@ -77,111 +76,55 @@
         </div>
       </div>
     </div>
-    <!---->
-    <!------------ CONTEUDOS ------------->
+       <!------------ CONTEUDOS ------------->
 
     <div class="container marketing">
-      <hr class="featurette-divider" />
 
       <!-- CONTEUDO 1 -->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Psicólogos</h2>
-          <p class="lead">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            corrupti iusto fugit temporibus blanditiis commodi.
-          </p>
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-            CONFIRA A LISTA
-          </button>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
+          <form id="formulario">
+            <fieldset>
+              <div class="form-group">
+                <label> Conte-nos sua história</label>
+                <textarea class="form-control" rows="6" id="depoimento"> </textarea>
+              </div>
+              <div class="form-group">
+                <label>Nome</label>
+                <input
+                  id="nome"
+                  class="form-control"
+                  type="text"
+                />
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                />
+                <small id="emailHelp" class="form-text text-muted">Seu e-mail não será publicado</small>
+              </div>
+            </fieldset>
+            <div class="form-group">
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary mb-2"
+                onclick="salvarDepoimento()"
+              >
+                Salvar
+              </button>
+            </div>
+          </form>
         </div>
       </div>
+    
+      <hr class="featurette-divider" style="margin:1em;" />
 
-      <hr class="featurette-divider" />
+      <div id="container_depoimento" class="row"></div>
 
-      <!-- CONTEUDO 2 -->
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Psiquiatras</h2>
-          <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            in perferendis exercitationem sit, id quo laborum architecto,
-            commodi cumque harum culpa molestiae mollitia laudantium maxime?
-          </p>
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-            CONFIRA A LISTA
-          </button>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider" />
-
-      <!-- CONTEUDO 3 -->
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">
-            Outros profissionais de saúde
-          </h2>
-          <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, in!
-            Numquam suscipit voluptas magni tenetur dolor dignissimos asperiores
-            delectus, necessitatibus in quis sunt cumque facere itaque ullam.
-            Suscipit praesentium fugiat ullam alias ipsa, blanditiis in
-            laudantium, dolorum harum nostrum magni?
-          </p>
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-            CONFIRA A LISTA
-          </button>
-        </div>
-        <div class="col-md-5">
-          <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
     </div>
 
     <!------------ FOOTER ------------->
@@ -256,7 +199,9 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <!-- SCRIPT NOSSO -->
-    <script type="text/javascript" src="script.js"></script>
+
+    <!-- SCRIPT DE DEPOIMENTOS -->
+    <script src="./depoimentos.js"></script>
+
   </body>
 </html>
