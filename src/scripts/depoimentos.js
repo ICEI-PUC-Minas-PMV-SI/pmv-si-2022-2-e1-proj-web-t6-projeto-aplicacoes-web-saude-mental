@@ -21,6 +21,7 @@ function pegarDepoimento() {
 }
 
 function exibirDepoimentos() {
+  document.getElementById("container_depoimento").innerHTML = "";
   document.getElementById("container_depoimento").style.display = "flex";
   for (var index = 0; index < document.depoimentos.length; index++) {
     document.getElementById("container_depoimento").innerHTML += `
@@ -31,4 +32,3 @@ function exibirDepoimentos() {
     `;
   }
 }
-Footer;
