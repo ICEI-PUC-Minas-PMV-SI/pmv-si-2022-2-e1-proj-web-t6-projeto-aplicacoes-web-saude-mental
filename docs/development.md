@@ -38,6 +38,15 @@ Foram criadas versões para desktop e dispositivos moveis, alterando os componen
 
 Assim como no requisito não funcional número 3, utilizamos páginas simples, com imagens em .png e .sgv para que o site funcione satisfatoriamente em todos os dispositivos.
 
+# Funcionalidades implementadas em Javascript
+
+Como o nosso site é um site primordialmente expositivo, focamos em três partes principais para o desenvolvimento das funcionalidades em Javascript.
+
+A primeira delas foi o fluxo de cadastro e login, onde implementamos a correta obtenção dos dados e posterior uso dos mesmos para a entrada de pessoas em nosso site. 
+
+A segunda foi o formulário de depoimentos, onde utilizamos ferramentas de formulários também. 
+
+Já a terceira foram as interações animadas, proporcionando uma experiência visualmente agradavel para nossos usuários.
 
 # Imagens do site implementado em versões desktop e mobile
 
