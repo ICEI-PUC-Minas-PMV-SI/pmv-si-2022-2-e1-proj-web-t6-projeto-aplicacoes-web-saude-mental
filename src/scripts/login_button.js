@@ -1,6 +1,6 @@
-// LOGIN
+// Adicionando funções para o Windows.OnLoad
 
-window.onload = function () {
+function loginOnLoad () {
   // Página de Cadastro e de Login não precisam dessa validação
   if (
     !window.location.href.endsWith("login.html") &&
@@ -22,6 +22,20 @@ window.onload = function () {
     }
   }
 };
+
+
+var addFunctionOnWindowLoad = function(callback){
+  if(window.addEventListener){
+      window.addEventListener('load',callback,false);
+  }else{
+      window.attachEvent('onload',callback);
+  }
+}
+
+addFunctionOnWindowLoad(loginOnLoad)
+
+
+// LOGIN
 
 function registrosDefaults() {
   sessionStorage.setItem(

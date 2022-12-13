@@ -1,6 +1,20 @@
-window.onload = function () {
+// Adicionando funções para o Windows.OnLoad
+
+function depoimentosOnLoad () {
   document.depoimentos = [];
 };
+
+var addFunctionOnWindowLoad = function(callback){
+  if(window.addEventListener){
+      window.addEventListener('load',callback,false);
+  }else{
+      window.attachEvent('onload',callback);
+  }
+}
+
+addFunctionOnWindowLoad(depoimentosOnLoad)
+
+// Depoimento
 
 function salvarDepoimento() {
   adicionarDepoimento(pegarDepoimento());
